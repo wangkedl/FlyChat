@@ -1,15 +1,13 @@
 {
   "images" : [
     {
-      "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "40x40icons8-Paper Plane-64.png",
+      "size" : "20x20",
       "scale" : "2x"
     },
     {
-      "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "60x60icons8-Paper Plane-64.png",
+      "size" : "20x20",
       "scale" : "3x"
     },
     {
@@ -48,15 +46,13 @@
       "scale" : "2x"
     },
     {
-      "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "120x120icons8-Paper Plane-128.png",
+      "size" : "60x60",
       "scale" : "2x"
     },
     {
-      "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "180x180icons8-Paper Plane-128.png",
+      "size" : "60x60",
       "scale" : "3x"
     }
   ],
