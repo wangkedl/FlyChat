@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         
         password.leftView = UIImageView(image: UIImage(named: "password"))
         password.leftViewMode = UITextFieldViewMode.always
-        password.leftView?.frame = CGRect(x:100,y:100,width:25,height:25)
+        password.leftView?.frame = CGRect(x:100,y:100,width:18,height:18)
         
     }
 
