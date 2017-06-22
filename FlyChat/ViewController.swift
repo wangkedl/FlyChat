@@ -17,13 +17,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        let userImageV = UIImageView()
+        userImageV.image = UIImage(named: "userName")
+
         
-            
+        
         userName.leftView = UIImageView(image: UIImage(named: "userName"))
         userName.leftViewMode = UITextFieldViewMode.always
+        userName.leftView?.frame = CGRect(x:100,y:100,width:25,height:25)
         
         password.leftView = UIImageView(image: UIImage(named: "password"))
         password.leftViewMode = UITextFieldViewMode.always
+        password.leftView?.frame = CGRect(x:100,y:100,width:25,height:25)
+        
     }
 
     override func didReceiveMemoryWarning() {
